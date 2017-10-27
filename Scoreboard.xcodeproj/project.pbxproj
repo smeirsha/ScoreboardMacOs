@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E5B542B1FA19F58003BD1CB /* Scoreboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scoreboard.entitlements; sourceTree = "<group>"; };
 		B52616801D5A6E1000FE48BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C7441B1B1CFE5DC30089E84F /* Scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7441B1E1CFE5DC30089E84F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		C7441B1D1CFE5DC30089E84F /* Scoreboard */ = {
 			isa = PBXGroup;
 			children = (
+				9E5B542B1FA19F58003BD1CB /* Scoreboard.entitlements */,
 				C7441B1E1CFE5DC30089E84F /* AppDelegate.swift */,
 				C7441B201CFE5DC30089E84F /* ViewController.swift */,
 				C7441B491CFE5F2D0089E84F /* PlayerInfo.swift */,
@@ -101,7 +103,13 @@
 				TargetAttributes = {
 					C7441B1A1CFE5DC30089E84F = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 5Z97G9NZQ6;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -251,11 +259,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Scoreboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scoreboard";
+				PRODUCT_BUNDLE_IDENTIFIER = scoreBoardDist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
@@ -265,11 +278,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Scoreboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scoreboard";
+				PRODUCT_BUNDLE_IDENTIFIER = scoreBoardDist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
