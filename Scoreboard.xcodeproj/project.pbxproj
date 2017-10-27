@@ -265,10 +265,10 @@
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Scoreboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scoreBoardDist;
+				PRODUCT_BUNDLE_IDENTIFIER = meirav.scoreBoardDist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "5ef08ac9-9bb5-462d-99be-f53879ae8bf6";
+				PROVISIONING_PROFILE_SPECIFIER = "Meirav Mac Development";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,10 +284,10 @@
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Scoreboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = scoreBoardDist;
+				PRODUCT_BUNDLE_IDENTIFIER = meirav.scoreBoardDist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "5ef08ac9-9bb5-462d-99be-f53879ae8bf6";
+				PROVISIONING_PROFILE_SPECIFIER = "Meirav Mac Development";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
 			};
